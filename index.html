@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>DCoderGuy — Scrape. Build. Scale.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;600&display=swap');
+    :root{--bg:#0a0e1a;--card:#11182a;--accent:#00f0ff;--text:#e8f1ff;--sub:#8a9cb5;}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:2rem}
+    h1{font-family:'Orbitron',system-ui;font-size:clamp(3rem,10vw,7rem);letter-spacing:-0.03em;background:linear-gradient(135deg,var(--accent),#7b2cbf);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.5rem}
+    .sub{font-family:'Inter';font-weight:300;color:var(--sub);font-size:1.25rem;margin-bottom:3rem}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;width:100%;max-width:900px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:1.25rem;padding:2rem;text-align:left;transition:transform .2s,border-color .2s}
+    .card:hover{transform:translateY(-4px);border-color:rgba(0,240,255,.35)}
+    .card h3{font-family:'Orbitron';font-size:1.1rem;margin-bottom:.5rem;color:var(--accent)}
+    .card p{color:var(--sub);font-size:.95rem;line-height:1.5}
+    footer{margin-top:4rem;color:var(--sub);font-size:.85rem;opacity:.7}
+    a{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+  <h1>DCoderGuy</h1>
+  <p class="sub">Scrape. Build. Scale. — Multi-tool platform powered by open source.</p>
+  <div class="cards">
+    <a href="#" class="card"><h3>Zauba Scraper</h3><p>Efficient company data extraction from zaubacorp.com with pagination and filters.</p></a>
+    <a href="#" class="card"><h3>Admin Panel</h3><p>Login-protected dashboard to manage scraping jobs, exports, and users.</p></a>
+    <a href="#" class="card"><h3>Multi Tools</h3><p>Future-ready framework: CSV exporter, analytics, and custom pipelines.</p></a>
+  </div>
+  <footer>© 2026 DCoderGuy — Open Source on <a href="https://github.com/KUMARHKR/dcoderguy-main">GitHub</a></footer>
+</body>
+</html>
