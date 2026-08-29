@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ZaubaCorp Pro Lead Enricher",
+  "version": "4.0.0",
+  "description": "Scrapes Google, LinkedIn, and Top 5 Websites to extract emails, phones, business types, and leadership.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Launch Lead Enricher"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "downloads",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
